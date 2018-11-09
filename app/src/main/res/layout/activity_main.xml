@@ -1,0 +1,27 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="15sp"
+    android:paddingLeft="15sp"
+    android:paddingTop="15sp"
+    tools:context="com.example.android.myappp.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/snackbar_button"
+        android:layout_gravity="center"
+        android:text="click"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="15sp"
+        android:layout_marginRight="15sp"/>
+
+</android.support.design.widget.CoordinatorLayout>
